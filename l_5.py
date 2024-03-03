@@ -4,7 +4,7 @@ class Animal:
 
     def speak(self):
         return f"{self.name} Щось каже"
-class Dog(animal):
+class Dog(Animal):
     def bark(self):
         return f"{self.name} голосно гавкає"
 animal = Animal("Тварина")
